@@ -1,0 +1,85 @@
+<runspec>
+	<description><![CDATA[Port Truck Emission Rate Test (CO, NOx, Total Energy)]]></description>
+	<modelscale value="Inv"/>
+	<modeldomain value="PROJECT"/>
+	<geographicselections>
+		<geographicselection type="COUNTY" key="6037" description="CALIFORNIA - Los Angeles County"/>
+	</geographicselections>
+	<timespan>
+		<year key="2005"/>
+		<month id="3"/>
+		<day id="5"/>
+		<beginhour id="8"/>
+		<endhour id="8"/>
+		<aggregateBy key="Hour"/>
+	</timespan>
+	<onroadvehicleselections>
+		<onroadvehicleselection fueltypeid="2" fueltypedesc="Diesel Fuel" sourcetypeid="62" sourcetypename="Combination Long-haul Truck"/>
+	</onroadvehicleselections>
+	<offroadvehicleselections>
+	</offroadvehicleselections>
+	<offroadvehiclesccs>
+	</offroadvehiclesccs>
+	<roadtypes>
+		<roadtype roadtypeid="4" roadtypename="Urban Restricted Access"/>
+	</roadtypes>
+	<pollutantprocessassociations>
+		<pollutantprocessassociation pollutantkey="2" pollutantname="Carbon Monoxide (CO)" processkey="1" processname="Running Exhaust"/>
+		<pollutantprocessassociation pollutantkey="3" pollutantname="Oxides of Nitrogen (NOx)" processkey="1" processname="Running Exhaust"/>
+		<pollutantprocessassociation pollutantkey="91" pollutantname="Total Energy Consumption" processkey="1" processname="Running Exhaust"/>
+	</pollutantprocessassociations>
+	<databaseselections>
+		<databaseselection servername="" databasename="port_test_in" description=""/>
+	</databaseselections>
+	<internalcontrolstrategies>
+<internalcontrolstrategy classname="gov.epa.otaq.moves.master.implementation.ghg.internalcontrolstrategies.rateofprogress.RateOfProgressStrategy"><![CDATA[
+useParameters	No
+
+]]></internalcontrolstrategy>
+	</internalcontrolstrategies>
+	<inputdatabase servername="" databasename="" description=""/>
+	<uncertaintyparameters uncertaintymodeenabled="false" numberofrunspersimulation="0" numberofsimulations="0"/>
+	<geographicoutputdetail description="LINK"/>
+	<outputemissionsbreakdownselection>
+		<modelyear selected="false"/>
+		<fueltype selected="true"/>
+		<emissionprocess selected="true"/>
+		<onroadoffroad selected="true"/>
+		<roadtype selected="true"/>
+		<sourceusetype selected="false"/>
+		<movesvehicletype selected="false"/>
+		<onroadscc selected="false"/>
+		<offroadscc selected="false"/>
+		<estimateuncertainty selected="false" numberOfIterations="2" keepSampledData="false" keepIterations="false"/>
+		<sector selected="false"/>
+		<engtechid selected="false"/>
+		<hpclass selected="false"/>
+	</outputemissionsbreakdownselection>
+	<outputdatabase servername="" databasename="port_test_out" description=""/>
+	<outputtimestep value="Hour"/>
+	<outputvmtdata value="true"/>
+	<outputsho value="true"/>
+	<outputsh value="true"/>
+	<outputshp value="false"/>
+	<outputshidling value="false"/>
+	<outputstarts value="false"/>
+	<outputpopulation value="true"/>
+	<scaleinputdatabase servername="localhost" databasename="port_test_in" description=""/>
+	<pmsize value="0"/>
+	<outputfactors>
+		<timefactors selected="true" units="Hours"/>
+		<distancefactors selected="true" units="Miles"/>
+		<massfactors selected="true" units="Grams" energyunits="Joules"/>
+	</outputfactors>
+	<savedata>
+
+	</savedata>
+
+	<donotexecute>
+
+	</donotexecute>
+
+	<generatordatabase shouldsave="false" servername="" databasename="" description=""/>
+		<donotperformfinalaggregation selected="false"/>
+	<lookuptableflags scenarioid="" truncateoutput="false" truncateactivity="false"/>
+</runspec>

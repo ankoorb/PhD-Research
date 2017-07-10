@@ -1,0 +1,15 @@
+
+35
+"ID",I,1,4,0,8,0,,"","Vehicle ID",,"Sum",
+"OriID",I,5,4,0,8,0,,"","Origin ID",,"Sum",
+"DesID",I,9,4,0,8,0,,"","Destination ID",,"Sum",
+"Class",C,13,1,0,1,0,,"","Vehicle class",,"Sum",
+"Truck",C,14,1,0,1,0,,"","Truck",,"Sum",
+"UserA",C,15,1,0,1,0,,"","User defined type or group",,"Sum",
+"UserB",C,16,1,0,1,0,,"","User defined type or group",,"Sum",
+"Status",C,17,1,0,1,0,,"","Trip status",,"Sum",
+"DepTime",F,18,4,0,8,1,,"","Departure time (seconds from midnight)",,"Sum",
+"ArrTime",F,22,4,0,8,1,,"","Arrival time (seconds from midnight)",,"Sum",
+"Path",I,26,4,0,8,0,,"","ID of the path",,"Sum",
+"Occupants",S,30,2,0,4,0,,"","Number of occupants",,"Sum",
+"Mileage",F,32,4,0,8,3,,"","Distance traveled (miles)",,"Sum",
