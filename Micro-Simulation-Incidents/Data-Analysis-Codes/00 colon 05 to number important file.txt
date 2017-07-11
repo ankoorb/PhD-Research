@@ -1,0 +1,96 @@
+>> load C:\Users\Ankoor\Desktop\Jielin\210EB.txt
+??? Error using ==> load
+Number of columns on line 1 of ASCII file C:\Users\Ankoor\Desktop\Jielin\210EB.txt
+must be the same as previous lines.
+ 
+>> textdata(13218,1)
+
+ans = 
+
+    '22:55'
+
+>> test = sscanf(textdata(13218,1), '%d:%d')
+??? Error using ==> sscanf
+First argument must be a string.
+ 
+>> s = textdata(13218,1);
+>> s
+
+s = 
+
+    '22:55'
+
+>> sscanf(s, '%d:%d')
+??? Error using ==> sscanf
+First argument must be a string.
+ 
+>> str = sscanf(s, '%d:%d');
+??? Error using ==> sscanf
+First argument must be a string.
+ 
+>> str = sscanf(s, '%d:%d', num1, num2);
+??? Undefined function or variable 'num1'.
+ 
+>> str = sscanf('12:30', '%d:%d', num1, num2);
+??? Undefined function or variable 'num1'.
+ 
+>> str = sscanf('12:30', '%d:%d');
+>> str = sscanf('12:30', '%d');
+>> str
+
+str =
+
+    12
+
+>> str = sscanf('12:30', '%d%s%d');
+>> str
+
+str =
+
+    12
+    58
+    51
+    48
+
+>> str = sscanf('12:30', '%d:%d');
+>> str
+
+str =
+
+    12
+    30
+
+>> str = sscanf('12?30', '%d:%d');
+>> str
+
+str =
+
+    12
+
+>> str = sscanf('12?30', '%d?%d');
+>> str
+
+str =
+
+    12
+    30
+
+??? Error: File: test.m Line: 1 Column: 14
+Unexpected MATLAB expression.
+ 
+??? Error: File: test.m Line: 1 Column: 14
+Unexpected MATLAB expression.
+ 
+??? Error: File: test.m Line: 1 Column: 14
+Unexpected MATLAB expression.
+ 
+>> 
+>> for (
+??? >> for (
+    |
+Error: Unexpected MATLAB operator.
+ 
+>> cls
+??? Undefined function or variable 'cls'.
+ 
+>> clear

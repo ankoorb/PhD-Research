@@ -1,0 +1,33 @@
+a = x';
+b = y';
+c = z';
+
+subplot(1,3,1);
+contourf(a,7);
+xlabel('Month'); 
+ylabel('Hour'); 
+title('I-110 SB (2005 - TA/VMT)'); 
+colorbar('peer',subplot(1,3,1),'SouthOutside');
+set(gca,'XTick',[1 2 3 4 5 6 7 8 9 10 11 12]);
+set(gca,'YTick',[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]);
+grid on;
+
+subplot(1,3,2);
+contourf(b,7);
+xlabel('Month'); 
+ylabel('Hour'); 
+title('I-110 SB (2006 - TA/VMT)'); 
+colorbar('peer',subplot(1,3,2),'SouthOutside');
+set(gca,'XTick',[1 2 3 4 5 6 7 8 9 10 11 12]);
+set(gca,'YTick',[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]);
+grid on;
+
+subplot(1,3,3);
+contourf(c,7);
+xlabel('Month'); 
+ylabel('Hour'); 
+title('I-110 SB (2007 - TA/VMT)'); 
+colorbar('peer',subplot(1,3,3),'SouthOutside');
+set(gca,'XTick',[1 2 3 4 5 6 7 8 9 10 11 12]);
+set(gca,'YTick',[1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24]);
+grid on;

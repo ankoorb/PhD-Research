@@ -1,0 +1,76 @@
+Fwy	District	County	City	CA PM	Abs PM	Length	ID	Name	Lanes	Type	HOV	MS ID	IRM
+I5-S	11	San Diego	San Diego	R.148	.058	.102	1114228	N/O CMNO DE LA PLAZA	6	Mainline	No	4001	
+I5-S	11	San Diego	San Diego	R.236	.146	.617	1118326	5 SB @ Via de Ysidro	4	Mainline	No	15205	
+I5-S	11	San Diego	San Diego	1.381	1.291	1.037	1114708	N/O VIA DE SAN YSIDR	5	Mainline	No	3050	
+I5-S	11	San Diego	San Diego	2.312	2.222	.634	1118341	5 SB @ Dairy Mart	4	Mainline	No	15210	
+I5-S	11	San Diego	San Diego	2.649	2.559	.268	1114721	N/O DAIRY MART RD	4	Mainline	No	4052	
+I5-S	11	San Diego	San Diego	2.849	2.759	.722	1118365	5 SB N/0 905	4	Mainline	No	15306	
+I5-S	11	San Diego	San Diego	4.093	4.003	.65	1118372	5 SB @ Coronado Ave	4	Mainline	No	15309	
+I5-S	11	San Diego	San Diego	4.15	4.06	.614	1114234	.09 M N/O CORONADO	4	Mainline	No	4002	
+I5-S	11	San Diego	San Diego	5.321	5.231	.652	1114735	S/O MAIN ST	5	Mainline	No	4053	
+I5-S	11	San Diego	San Diego	5.455	5.365	.481	1118695	5 SB @ Main St	5	Mainline	No	15401	
+I5-S	11	San Diego	Chula Vista	6.283	6.193	.918	1114749	N/O PALOMAR ST	5	Mainline	No	4054	
+I5-S	11	San Diego	Chula Vista	7.291	7.201	.604	1118413	5 SB @ J St	4	Mainline	No	15407	
+I5-S	11	San Diego	Chula Vista	7.491	7.401	.309	1114763	N/O J ST	5	Mainline	No	4055	
+I5-S	11	San Diego	Chula Vista	7.909	7.819	.544	1118428	5 SB N/O H St	4	Mainline	No	15410	
+I5-S	11	San Diego	Chula Vista	8.579	8.489	1.039	1118442	5 SB @ E St	4	Mainline	No	15411	
+I5-S	11	San Diego	National City	R9.987	9.897	1.153	1114240	.73 M S/O CIVIC CTR	4	Mainline	No	4003	
+I5-S	11	San Diego	National City	R10.898	10.795	.475	1118465	5 SB  Civic Center	4	Mainline	No	15508	
+I5-S	11	San Diego	National City	R10.95	10.847	.191	1114247	.18 M N/O CIVIC CTR	5	Mainline	No	4004	
+I5-S	11	San Diego	National City	R11.281	11.178	.42	1118472	5 SB N/O 8th St	4	Mainline	No	15511	
+I5-S	11	San Diego	San Diego	R11.79	11.687	.334	1118076	SB I5 S/O I15	4	Mainline	No	10608	
+I5-S	11	San Diego	San Diego	R11.95	11.847	.53	1114254	.27 M N/O DIVISION	5	Mainline	No	4005	
+I5-S	11	San Diego	San Diego	R12.851	12.748	.587	1114261	.26 M N/O SR-15	4	Mainline	No	4006	
+I5-S	11	San Diego	San Diego	R13.125	13.022	.312	1117755	SB 5 S/O 29th	4	Mainline	No	10601	
+I5-S	11	San Diego	San Diego	R13.475	13.372	.697	1114268	.23 M N/O 28TH ST	5	Mainline	No	4007	
+I5-S	11	San Diego	San Diego	R14.519	14.416	.742	1117774	SB5 @ Imperial	5	Mainline	No	10603	
+I5-S	11	San Diego	San Diego	R14.965	14.856	.405	1117789	SB 5 @ SR 94	4	Mainline	No	10605	
+I5-S	11	San Diego	San Diego	R15.335	15.226	.369	1117810	SB 5 @ B ST	4	Mainline	No	10508	
+I5-S	11	San Diego	San Diego	R15.703	15.594	.395	1114318	SB 5 S/O  PARK BLVD	6	Mainline	No	4009	
+I5-S	11	San Diego	San Diego	R16.124	16.015	.789	1108417	5TH AVE	5	Mainline	No	75	
+I5-S	11	San Diego	San Diego	R17.282	17.173	.76	1108605	KETTNER BLVD	5	Mainline	No	182	
+I5-S	11	San Diego	San Diego	R17.644	17.535	.199	1118702	5 SB N/O Pacific Hwy	4	Mainline	No	20413	
+I5-S	11	San Diego	San Diego	R17.681	17.572	.23	1117724	SB 5 N/O Pacific HWY	4	Mainline	No	10406	
+I5-S	11	San Diego	San Diego	R18.105	17.996	.365	1108609	HANCOCK ST	4	Mainline	No	184	
+I5-S	11	San Diego	San Diego	R18.411	18.302	.416	1117871	SB5 N/O WASHINGTON	5	Mainline	No	10410	
+I5-S	11	San Diego	San Diego	R18.937	18.828	.403	1108615	OLD TOWN AVE	5	Mainline	No	187	
+I5-S	11	San Diego	San Diego	R19.216	19.107	.423	1117818	SB 5 N/O OLD TOWN	5	Mainline	No	10302	
+I5-S	11	San Diego	San Diego	R19.784	19.675	.629	1115355	SB 5 S/O 8	5	Mainline	No	10304	
+I5-S	11	San Diego	San Diego	R20.473	20.364	.458	1114792	S/O SEA WORLD DR	6	Mainline	No	4057	
+I5-S	11	San Diego	San Diego	R20.701	20.592	.501	1108457	SEA WORLD DR	5	Mainline	No	97	
+I5-S	11	San Diego	San Diego	R21.475	21.366	.628	1114806	S/O CLAIRMONT DR	5	Mainline	No	4058	
+I5-S	11	San Diego	San Diego	R21.956	21.847	.635	1108711	EB CLAIREMONT DR	5	Mainline	No	241	
+I5-S	11	San Diego	San Diego	R22.745	22.636	.77	1108693	MISSION BAY DR	4	Mainline	No	16203	
+I5-S	11	San Diego	San Diego	R23.497	23.388	.399	1114818	S/O BALBOA AVE	4	Mainline	No	4059	
+I5-S	11	San Diego	San Diego	R23.543	23.434	.077	1119307	SB5 @BALBOA AVE	4	Mainline	No	16205	
+I5-S	11	San Diego	San Diego	R23.65	23.541	.341	1114283	1.48 M S/O SR-52	5	Mainline	No	3010	
+I5-S	11	San Diego	San Diego	R24.227	24.118	1.022	1118529	5 SB Mission Bay Dr	5	Mainline	No	16207	
+I5-S	11	San Diego	San Diego	R25.695	25.586	1.261	1108667	La Jolla Pkwy/SR-52	5	Mainline	No	216	
+I5-S	11	San Diego	San Diego	R26.75	26.641	1.134	1108669	GILMAN DR	4	Mainline	No	16303	
+I5-S	11	San Diego	San Diego	R27.965	27.856	.852	1108452	NOBEL DR	4	Mainline	No	16307	
+I5-S	11	San Diego	San Diego	R28.454	28.345	.827	1108498	WB LA JOLLA VILLAGE	4	Mainline	No	123	
+I5-S	11	San Diego	San Diego	R29.621	29.512	1.233	1114832	N/O GENESEE AVE	5	Mainline	No	4060	
+I5-S	11	San Diego	San Diego	R30.921	30.812	1.269	1114660	S/B AT JCT I-805	3	Mainline	No	4046	
+I5-S	11	San Diego	San Diego	R32.193	32.051	.918	1114848	S/O SR-56	6	Mainline	No	4061	
+I5-S	11	San Diego	San Diego	R32.79	32.648	.985	1108434	CARMEL VALLEY RD	4	Mainline	No	84	
+I5-S	11	San Diego	San Diego	R34.164	34.022	1.768	1108431	WB DEL MAR HEIGHTS	5	Mainline	No	82	
+I5-S	11	San Diego	San Diego	R36.326	36.184	1.548	1108468	WB VIA DE LA VALLE	4	Mainline	No	105	
+I5-S	11	San Diego	San Diego	R37.26	37.118	1.146	1108471	LOMAS SANTA FE DR	4	Mainline	No	107	
+I5-S	11	San Diego	Encinitas	R38.617	38.475	.785	1108473	MANCHESTER AVE	4	Mainline	No	108	
+I5-S	11	San Diego	Encinitas	R38.832	38.69	.494	1114854	N/O MANCHESTER AVE	4	Mainline	No	3062	
+I5-S	11	San Diego	Encinitas	R39.606	39.464	.897	1108475	BIRMINGHAM DR	4	Mainline	No	109	
+I5-S	11	San Diego	Encinitas	R40.625	40.483	.96	1108477	SANTA FE DR	4	Mainline	No	110	
+I5-S	11	San Diego	Encinitas	R41.527	41.385	.983	1108479	ENCINITAS BLVD	4	Mainline	No	111	
+I5-S	11	San Diego	Encinitas	R42.591	42.449	1.179	1108723	LEUCADIA BLVD	4	Mainline	No	248	
+I5-S	11	San Diego	Encinitas	R43.885	43.743	1.409	1108725	LA COSTA AVE	4	Mainline	No	249	
+I5-S	11	San Diego	Carlsbad	R45.409	45.267	1.606	1108680	POINSETTIA LN	4	Mainline	No	224	
+I5-S	11	San Diego	Carlsbad	R47.097	46.955	1.212	1108685	WB PALOMAR AIRPORT	4	Mainline	No	227	
+I5-S	11	San Diego	Carlsbad	R47.834	47.692	1.035	1108661	CANNON RD	4	Mainline	No	213	
+I5-S	11	San Diego	Carlsbad	R49.169	49.027	1.09	1108560	TAMARACK AVE	4	Mainline	No	158	
+I5-S	11	San Diego	Carlsbad	R50.014	49.872	.706	1108657	CARLSBAD VILLAGE DR	4	Mainline	No	211	
+I5-S	11	San Diego	Carlsbad	R50.582	50.44	.699	1108463	LAS FLORES DR	4	Mainline	No	100	
+I5-S	11	San Diego	Oceanside	R51.413	51.271	.886	1108461	CASSIDY ST	4	Mainline	No	99	
+I5-S	11	San Diego	Oceanside	R52.354	52.212	.938	1108459	OCEANSIDE BLVD	4	Mainline	No	98	
+I5-S	11	San Diego	Oceanside	R53.29	53.148	.723	1108672	WB RTE 76/MISSION	4	Mainline	No	220	
+I5-S	11	San Diego	Oceanside	R53.8	53.658	.572	1115348	SB 5 @76	4	Mainline	No	15008	
+I5-S	11	San Diego		R54.434	54.292	2.817	1119290	SB 5 @ HARBOR DR	4	Mainline	No	15010	
