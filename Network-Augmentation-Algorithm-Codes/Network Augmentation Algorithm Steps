@@ -1,0 +1,15 @@
+Network Augmentation Algorithm Steps
+------------------------------------
+
+1. Open folder "Data transfer". For inbound, outbound and 2-link query results, run Fill_blanks.m (this code is for PM, you may need to change loading path a little bit according to Midday files' names)
+2. For inbound and outbound, run One_link_alltransfer.m
+3. For 2_link query results, 
+run Two_link_add_title.m, 
+then run Two_link_mergetables.m,
+ then run Two_link_delete_null_queries.m, 
+then run Two_link_builder.m, then open TC0.csv in excel, delete duplicate OD pairs, save it. 
+Then run Two_link_mergequeries.m.
+4. run tc-tm.m
+5. copy TC_inbound1.csv, TC_outbound1.csv and TC_2link1.csv to folder "OD extension".
+6. Insert first row as title to Midday Gunwoo OD matrices, using excel. The title should have 8 cells, all are 0. Copy them to folder "OD extension".
+7. run Proportion_Algorithm_Midday.m, Ankoor_OD_newC1_1 to Ankoor_OD_newC1_24 are the final results. 

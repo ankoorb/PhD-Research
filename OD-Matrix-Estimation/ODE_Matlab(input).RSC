@@ -5,7 +5,7 @@
 Macro "Load Matrix"
 
 shared d_matrix_options
-direct="L:\\Port(UCTC-3.0)\\"
+direct="E:\\Port(UCTC-3.0)\\"
 dim m[96]
 
 m[1] = OpenMatrix(direct+"OD_0000_0015.mtx", "True")
@@ -137,7 +137,7 @@ viewset = tbl + "|"
 
 update_flds = {tbl+".FIELD_3", tbl+".FIELD_4", tbl+".FIELD_5", tbl+".FIELD_6", tbl+".FIELD_7", tbl+".FIELD_8"}
 
-UpdateMatrixFromView(mtx, viewset, "FIELD_1", "FIELD_2", null, update_flds, "Replace",{{"Missing is zero", "Yes"}})
+UpdateMatrixFromView(mtx, viewset, "Ori", "Des", null, update_flds, "Replace",{{"Missing is zero", "Yes"}})
 
 endMacro
 
@@ -160,7 +160,7 @@ endMacro
 
 Macro "Export Tripsbin"
 
-direct="L:\\Port(UCTC-3.0)\\output\\data\\"
+direct="E:\\Port(UCTC-3.0)\\output\\data\\"
 
 
 Trips = OpenTable("Trips", "FFB", {direct+"trips.bin"})
@@ -177,7 +177,7 @@ endMacro
 
 Macro "Export Detectorbin"
 
-direct="L:\\Port(UCTC-3.0)\\output\\data\\"
+direct="E:\\Port(UCTC-3.0)\\output\\data\\"
 
 
 Trips = OpenTable("detector2", "FFB", {direct+"detector2.bin"})
@@ -197,7 +197,7 @@ endMacro
 
 Macro "Export Path"
 
-direct="L:\\Port(UCTC-3.0)\\output\\data\\"
+direct="E:\\Port(UCTC-3.0)\\output\\data\\"
 
 
 Trips = OpenTable("detector2", "FFB", {direct+"detector2.bin"})
@@ -242,7 +242,7 @@ endMacro
 
 Macro "Export VehClass"
 
-direct="L:\\Port(UCTC-3.0)\\output\\data\\"
+direct="E:\\Port(UCTC-3.0)\\output\\data\\"
 
 
 Trips = OpenTable("Trips", "FFB", {direct+"trips.bin"})
@@ -261,7 +261,7 @@ endMacro
 
 Macro "Export TripsbinMile"
 
-direct="L:\\Port(UCTC-3.0)\\output\\data\\"
+direct="E:\\Port(UCTC-3.0)\\output\\data\\"
 
 
 Trips = OpenTable("Trips", "FFB", {direct+"trips.bin"})

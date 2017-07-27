@@ -13,7 +13,7 @@ clear; clc;
 VMT=zeros(96,2);
 VehCount=zeros(96,2);
 
-for b=1:17
+for b=1:2
     
     tic
     s6=int2str(b);
